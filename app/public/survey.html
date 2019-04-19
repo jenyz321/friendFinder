@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Your Questions</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    
+  <div class="container">
+        <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                  <h1 class="display-4">What is most important about love?</h1>
+                  <p class="text-center">We just need a little info about you...</p>
+                </div>
+        </div>
+        <hr>
+    
+        
+        <h4>Name (Required)</h4>
+        <input type="text" id="name" class="form-control" required>
+    
+        <h4>We want to see you.. (Picture is required)</h4>
+        <input type="text" id="photo" class="form-control" required>
+    
+        <hr>
+    
+        <h3><strong>Question 1</strong></h3>
+        <h4>Have you ever been in love?</h4>
+        <select class="chosen-select" id="q1">
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+    
+        <h3><strong>Question 2</strong></h3>
+        <h4>Do you believe love is conditional?</h4>
+        <select class="chosen-select" id="q2">
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+    
+    
+        <h3><strong>Question 3</strong></h3>
+        <h4>Is love more important than money?</h4>
+        <select class="chosen-select" id="q3">
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+    
+    
+        <h3><strong>Question 4</strong></h3>
+        <h4>Can you chooose to fall in love?</h4>
+        <select class="chosen-select" id="q4">
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+    
+    
+        <h3><strong>Question 5</strong></h3>
+        <h4>Can you just decide to not be in love anymore?</h4>
+        <select class="chosen-select" id="q5">
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+    
+    
+        <h3><strong>Question 6</strong></h3>
+        <h4>Is new love exciting?</h4>
+        <select class="chosen-select" id="q6">
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+    
+    
+        <h3><strong>Question 7</strong></h3>
+        <h4>Is new love scary?</h4>
+        <select class="chosen-select" id="q7">
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+    
+        <h3><strong>Question 8</strong></h3>
+        <h4>Does love evolve and grow deeper as you age with your partner?</h4>
+        <select class="chosen-select" id="q8">
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+    
+        <h3><strong>Question 9</strong></h3>
+        <h4>Are you in love with someone right now?</h4>
+        <select class="chosen-select" id="q9">
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+    
+        <h3><strong>Question 10</strong></h3>
+        <h4>Are you ready to fall in love?</h4>
+        <select class="chosen-select" id="q10">
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+    
+        <br>
+        <br>
+    
+        <!-- Submit Button -->
+        <button type="submit" class="btn btn-success btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>
+         Submit</button>
+    
+        <hr>
+        <footer class="footer">
+          <div class="container">
+            <p><a href="/api/friends">Looking for love</a> | <a href="https://jenyz321.github.io/friendFinder/">Git Hub Repo</a> | <a href="./home.html">Home</a></a></p>
+          </div>
+        </footer>
+    
+      </div>
+    
+      <!-- Modal -->
+      <div id="results-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+    
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h2 class="modal-title"><strong>Your Poker Pal</strong></h2>
+            </div>
+            <div class="modal-body">
+              <h2 id="match-name"></h2>
+              <img id="match-img" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg" alt="">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+    
+</body>
+</html>
